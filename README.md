@@ -19,8 +19,6 @@ This facial keypoints dataset consists of 5770 color images. All of these images
 * 3462 of these images are training images, for you to use as you create a model to predict keypoints.
 * 2308 are test images, which will be used to test the accuracy of your model.
 
-The information about the images and keypoints in this dataset are summarized in CSV files, which we can read in using `pandas`. Let's read the training CSV and get the annotations in an (N, 2) array where N is the number of keypoints and 2 is the dimension of the keypoint coordinates (x, y).
-
 Data-Set link - https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5aea1b91_train-test-data/train-test-data.zip
 
 <h3>Notebook 2 : Creating and Training Model</h3>
